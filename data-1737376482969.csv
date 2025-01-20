@@ -1,0 +1,5 @@
+CREATE TABLE organizations (
+    organization_id SERIAL PRIMARY KEY,
+    organization_name VARCHAR(255) NOT NULL,
+    organization_sector VARCHAR(255)
+);

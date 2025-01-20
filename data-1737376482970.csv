@@ -1,0 +1,9 @@
+CREATE TABLE affiliations (
+    affiliation_id SERIAL PRIMARY KEY,
+    professor_id INT NOT NULL,
+    university_id INT,
+    organization_id INT,
+    FOREIGN KEY (professor_id) REFERENCES professors (professor_id) ON DELETE CASCADE,
+    FOREIGN KEY (university_id) REFERENCES universities (university_id) ON DELETE CASCADE,
+    FOREIGN KEY (organization_id) REFERENCES organizations (organization_id) ON DELETE CASCADE
+);
