@@ -1,0 +1,4 @@
+SELECT p.firstname, p.lastname, p.function
+FROM professors p
+JOIN affiliations a ON p.professor_id = a.professor_id
+WHERE a.university_id = 1;

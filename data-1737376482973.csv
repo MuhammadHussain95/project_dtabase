@@ -1,0 +1,4 @@
+INSERT INTO organizations (organization_name, organization_sector) 
+VALUES 
+('Research Institute X', 'Research'),
+('Tech Innovators Inc.', 'Technology');

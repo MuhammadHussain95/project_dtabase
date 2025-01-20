@@ -1,0 +1,4 @@
+INSERT INTO universities (university_name, university_shortname, university_city) 
+VALUES 
+('University of Example', 'UOE', 'Example City'),
+('Example Institute of Technology', 'EIT', 'Tech City');

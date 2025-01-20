@@ -1,0 +1,4 @@
+INSERT INTO affiliations (professor_id, university_id, organization_id) 
+VALUES 
+(1, 1, 1),  
+(2, 2, 2);

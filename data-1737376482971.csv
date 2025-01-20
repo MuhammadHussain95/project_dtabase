@@ -1,0 +1,5 @@
+INSERT INTO professors (firstname, lastname, function) 
+VALUES 
+('John', 'Doe', 'Professor of Computer Science'),
+('Jane', 'Smith', 'Assistant Professor of Mathematics');
+);

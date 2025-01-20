@@ -1,0 +1,5 @@
+SELECT p.firstname, p.lastname, p.function, u.university_name, o.organization_name
+FROM professors p
+JOIN affiliations a ON p.professor_id = a.professor_id
+JOIN universities u ON a.university_id = u.university_id
+JOIN organizations o ON a.organization_id = o.organization_id;

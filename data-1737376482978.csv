@@ -1,0 +1,2 @@
+DELETE FROM universities
+WHERE university_id = 2;

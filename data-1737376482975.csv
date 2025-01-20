@@ -1,0 +1,3 @@
+UPDATE professors 
+SET function = 'Senior Professor of Computer Science'
+WHERE professor_id = 1;

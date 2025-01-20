@@ -1,0 +1,3 @@
+UPDATE universities
+SET university_city = 'New Example City'
+WHERE university_id = 1;
